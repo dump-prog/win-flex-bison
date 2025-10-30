@@ -1,0 +1,8 @@
+flex prac1.lex
+gcc lex.yy.c -o <name>.exe 
+.\demo.exe < demo.c 
+
+win_flex pract4.l
+win_bison -d pract4.y
+gcc lex.yy.c pract4.tab.c -o pract4.exe
+gcc lex.yy.c p5.tab.c -o p5.exe
